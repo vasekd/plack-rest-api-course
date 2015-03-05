@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="restapi.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow2Lend"
+       style="overflow:visible;">
+      <path
+         id="path3786"
+         style="fill-rule:evenodd;stroke-width:0.62500000;stroke-linejoin:round;"
+         d="M 8.7185878,4.0337352 L -2.2072895,0.016013256 L 8.7185884,-4.0017078 C 6.9730900,-1.6296469 6.9831476,1.6157441 8.7185878,4.0337352 z "
+         transform="scale(1.1) rotate(180) translate(1,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path3768"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="512.97711"
+     inkscape:cy="509.34343"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1063"
+     inkscape:window-x="0"
+     inkscape:window-y="17"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:none;stroke:#808080;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4716"
+       width="724.27936"
+       height="663.77167"
+       x="12.121831"
+       y="163.41779"
+       rx="20"
+       ry="20"
+       inkscape:export-filename="/opt/git_home/rest-api-course/img/overview.png"
+       inkscape:export-xdpi="120.26958"
+       inkscape:export-ydpi="120.26958" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4589"
+       width="649.52802"
+       height="53.538086"
+       x="53.355339"
+       y="409.52441"
+       rx="20"
+       ry="20"
+       inkscape:export-filename="/opt/git_home/rest-api-course/img/overview.png"
+       inkscape:export-xdpi="120.26958"
+       inkscape:export-ydpi="120.26958" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4637"
+       y="445.84436"
+       x="189.23862"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/opt/git_home/rest-api-course/img/overview.png"
+       inkscape:export-xdpi="120.26958"
+       inkscape:export-ydpi="120.26958"><tspan
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#333333;font-family:Sans;-inkscape-font-specification:Sans"
+         y="445.84436"
+         x="189.23862"
+         id="tspan4639"
+         sodipodi:role="line"><tspan
+   style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+   id="tspan5572">Web App</tspan>  (GET, POST, PUT, DELETE)</tspan></text>
+    <path
+       style="fill:#999999;stroke:#b3b3b3;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:none"
+       d="m 360.61685,178.78435 0,62.22228"
+       id="path2991"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/opt/git_home/rest-api-course/img/overview.png"
+       inkscape:export-xdpi="120.26958"
+       inkscape:export-ydpi="120.26958" />
+    <path
+       style="fill:none;stroke:#b3b3b3;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 346.47472,219.79343 14.14213,21.21321 13.13198,-21.21321"
+       id="path4575"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc"
+       inkscape:export-filename="/opt/git_home/rest-api-course/img/overview.png"
+       inkscape:export-xdpi="120.26958"
+       inkscape:export-ydpi="120.26958" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4577"
+       d="m 184.45436,560.24278 0,56.24551"
+       style="fill:#999999;stroke:#b3b3b3;stroke-width:2.99999976;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:none"
+       inkscape:export-filename="/opt/git_home/rest-api-course/img/overview.png"
+       inkscape:export-xdpi="120.26958"
+       inkscape:export-ydpi="120.26958" />
+    <path
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="path4579"
+       d="m 170.31223,597.61842 14.14213,21.21321 13.13198,-21.21321"
+       style="fill:none;stroke:#b3b3b3;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/opt/git_home/rest-api-course/img/overview.png"
+       inkscape:export-xdpi="120.26958"
+       inkscape:export-ydpi="120.26958" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4677"
+       y="214.53964"
+       x="372.40619"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f2f2f2;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/opt/git_home/rest-api-course/img/overview.png"
+       inkscape:export-xdpi="120.26958"
+       inkscape:export-ydpi="120.26958"><tspan
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#f2f2f2;font-family:Sans;-inkscape-font-specification:Sans"
+         y="214.53964"
+         x="372.40619"
+         id="tspan4679"
+         sodipodi:role="line">Request</tspan></text>
+    <rect
+       inkscape:export-ydpi="120.26958"
+       inkscape:export-xdpi="120.26958"
+       inkscape:export-filename="/opt/git_home/rest-api-course/img/overview.png"
+       ry="20"
+       rx="20"
+       y="255.67664"
+       x="53.355339"
+       height="53.538086"
+       width="649.52802"
+       id="rect5538"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <text
+       inkscape:export-ydpi="120.26958"
+       inkscape:export-xdpi="120.26958"
+       inkscape:export-filename="/opt/git_home/rest-api-course/img/overview.png"
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr"
+       x="67.238617"
+       y="288.98645"
+       id="text5540"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5542"
+         x="67.238617"
+         y="288.98645"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr;text-anchor:start;fill:#333333;font-family:Sans;-inkscape-font-specification:Sans"><tspan
+   style="font-weight:bold;-inkscape-font-specification:Sans;font-family:Sans;font-style:normal;font-stretch:normal;font-variant:normal;font-size:20px;text-anchor:start;text-align:start;writing-mode:lr;line-height:125%"
+   id="tspan5568">Plack::Middleware::ParseContent</tspan>  (Header: Content-Type)</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect5544"
+       width="649.52802"
+       height="53.538086"
+       x="53.355339"
+       y="323.5802"
+       rx="20"
+       ry="20"
+       inkscape:export-filename="/opt/git_home/rest-api-course/img/overview.png"
+       inkscape:export-xdpi="120.26958"
+       inkscape:export-ydpi="120.26958" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text5546"
+       y="356.89001"
+       x="133.57864"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/opt/git_home/rest-api-course/img/overview.png"
+       inkscape:export-xdpi="120.26958"
+       inkscape:export-ydpi="120.26958"><tspan
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#333333;font-family:Sans;-inkscape-font-specification:Sans"
+         y="356.89001"
+         x="133.57864"
+         id="tspan5548"
+         sodipodi:role="line"><tspan
+   style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+   id="tspan5570">Plack::Middleware::RestAPI</tspan>  (Header: Method)</tspan></text>
+    <rect
+       inkscape:export-ydpi="120.26958"
+       inkscape:export-xdpi="120.26958"
+       inkscape:export-filename="/opt/git_home/rest-api-course/img/overview.png"
+       ry="20"
+       rx="20"
+       y="494.39752"
+       x="53.355339"
+       height="53.538086"
+       width="649.52802"
+       id="rect5550"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <text
+       inkscape:export-ydpi="120.26958"
+       inkscape:export-xdpi="120.26958"
+       inkscape:export-filename="/opt/git_home/rest-api-course/img/overview.png"
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="74.568497"
+       y="527.6972"
+       id="text5552"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5554"
+         x="74.568497"
+         y="527.6972"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#333333;font-family:Sans;-inkscape-font-specification:Sans"><tspan
+   style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
+   id="tspan5574">Plack::Middleware::FormatOutput</tspan>   (Header: Accept)</tspan></text>
+    <path
+       inkscape:export-ydpi="120.26958"
+       inkscape:export-xdpi="120.26958"
+       inkscape:export-filename="/opt/git_home/rest-api-course/img/overview.png"
+       style="fill:#999999;stroke:#b3b3b3;stroke-width:2.99999976;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:none"
+       d="m 369.35794,629.24278 0,56.24551"
+       id="path5556"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="120.26958"
+       inkscape:export-xdpi="120.26958"
+       inkscape:export-filename="/opt/git_home/rest-api-course/img/overview.png"
+       style="fill:none;stroke:#b3b3b3;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 355.21581,666.61842 14.14213,21.21321 13.13198,-21.21321"
+       id="path5558"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5560"
+       d="m 451.1803,629.24278 0,56.24551"
+       style="fill:#999999;stroke:#b3b3b3;stroke-width:2.99999976;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:none"
+       inkscape:export-filename="/opt/git_home/rest-api-course/img/overview.png"
+       inkscape:export-xdpi="120.26958"
+       inkscape:export-ydpi="120.26958" />
+    <path
+       sodipodi:nodetypes="ccc"
+       inkscape:connector-curvature="0"
+       id="path5562"
+       d="m 437.03817,666.61842 14.14213,21.21321 13.13198,-21.21321"
+       style="fill:none;stroke:#b3b3b3;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/opt/git_home/rest-api-course/img/overview.png"
+       inkscape:export-xdpi="120.26958"
+       inkscape:export-ydpi="120.26958" />
+    <path
+       inkscape:export-ydpi="120.26958"
+       inkscape:export-xdpi="120.26958"
+       inkscape:export-filename="/opt/git_home/rest-api-course/img/overview.png"
+       style="fill:#999999;stroke:#b3b3b3;stroke-width:2.99999976;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:none"
+       d="m 525.87067,629.24278 0,56.24551"
+       id="path5564"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:export-ydpi="120.26958"
+       inkscape:export-xdpi="120.26958"
+       inkscape:export-filename="/opt/git_home/rest-api-course/img/overview.png"
+       style="fill:none;stroke:#b3b3b3;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 511.72854,666.61842 14.14213,21.21321 13.13198,-21.21321"
+       id="path5566"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccc" />
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect5584"
+       width="227.52802"
+       height="42.538086"
+       x="69.355347"
+       y="632.39752"
+       rx="20"
+       ry="20"
+       inkscape:export-filename="/opt/git_home/rest-api-course/img/overview.png"
+       inkscape:export-xdpi="120.26958"
+       inkscape:export-ydpi="120.26958" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text5586"
+       y="479.96811"
+       x="43.353504"
+       style="font-size:10.55130196px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/opt/git_home/rest-api-course/img/overview.png"
+       inkscape:export-xdpi="120.26958"
+       inkscape:export-ydpi="120.26958"
+       transform="scale(0.66398909,1.5060488)"><tspan
+         style="font-size:10.55130196px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#333333;font-family:Sans;-inkscape-font-specification:Sans"
+         y="479.96811"
+         x="43.353504"
+         id="tspan5588"
+         sodipodi:role="line" /></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5592"
+       y="660.6972"
+       x="108.5685"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/opt/git_home/rest-api-course/img/overview.png"
+       inkscape:export-xdpi="120.26958"
+       inkscape:export-ydpi="120.26958"><tspan
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#333333;font-family:Sans;-inkscape-font-specification:Sans"
+         y="660.6972"
+         x="108.5685"
+         id="tspan5594"
+         sodipodi:role="line">Rest::HtmlViz</tspan></text>
+    <rect
+       inkscape:export-ydpi="120.26958"
+       inkscape:export-xdpi="120.26958"
+       inkscape:export-filename="/opt/git_home/rest-api-course/img/overview.png"
+       ry="20"
+       rx="20"
+       y="687.39752"
+       x="69.355347"
+       height="42.538086"
+       width="227.52802"
+       id="rect5600"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <text
+       inkscape:export-ydpi="120.26958"
+       inkscape:export-xdpi="120.26958"
+       inkscape:export-filename="/opt/git_home/rest-api-course/img/overview.png"
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="119.5685"
+       y="715.6972"
+       id="text5602"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5604"
+         x="119.5685"
+         y="715.6972"
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#333333;font-family:Sans;-inkscape-font-specification:Sans">GrayPages</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:4.99999952;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect5606"
+       width="227.52802"
+       height="42.538086"
+       x="254.35535"
+       y="760.39752"
+       rx="20"
+       ry="20"
+       inkscape:export-filename="/opt/git_home/rest-api-course/img/overview.png"
+       inkscape:export-xdpi="120.26958"
+       inkscape:export-ydpi="120.26958" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text5608"
+       y="787.6972"
+       x="332.56848"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/opt/git_home/rest-api-course/img/overview.png"
+       inkscape:export-xdpi="120.26958"
+       inkscape:export-ydpi="120.26958"><tspan
+         style="font-size:20px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#333333;font-family:Sans;-inkscape-font-specification:Sans"
+         y="787.6972"
+         x="332.56848"
+         id="tspan5610"
+         sodipodi:role="line">Client</tspan></text>
+    <text
+       inkscape:export-ydpi="120.26958"
+       inkscape:export-xdpi="120.26958"
+       inkscape:export-filename="/opt/git_home/rest-api-course/img/overview.png"
+       sodipodi:linespacing="125%"
+       id="text5630"
+       y="589.7428"
+       x="196.13197"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f2f2f2;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#f2f2f2;font-family:Sans;-inkscape-font-specification:Sans"
+         y="589.7428"
+         x="196.13197"
+         id="tspan5632"
+         sodipodi:role="line">text/html</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f2f2f2;fill-opacity:1;stroke:none;font-family:Sans"
+       x="371.13196"
+       y="584.7428"
+       id="text5634"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/opt/git_home/rest-api-course/img/overview.png"
+       inkscape:export-xdpi="120.26958"
+       inkscape:export-ydpi="120.26958"><tspan
+         sodipodi:role="line"
+         id="tspan5636"
+         x="371.13196"
+         y="584.7428"
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#f2f2f2;font-family:Sans;-inkscape-font-specification:Sans">application/json</tspan></text>
+    <text
+       inkscape:export-ydpi="120.26958"
+       inkscape:export-xdpi="120.26958"
+       inkscape:export-filename="/opt/git_home/rest-api-course/img/overview.png"
+       sodipodi:linespacing="125%"
+       id="text5638"
+       y="610.7428"
+       x="478.13196"
+       style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#f2f2f2;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#f2f2f2;font-family:Sans;-inkscape-font-specification:Sans"
+         y="610.7428"
+         x="478.13196"
+         id="tspan5640"
+         sodipodi:role="line">text/yaml</tspan></text>
+  </g>
+</svg>

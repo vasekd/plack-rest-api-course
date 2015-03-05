@@ -1,4 +1,4 @@
-#!env /usr/bin/perl
+#! /usr/bin/env perl
 
 use strict;
 use warnings;
@@ -74,7 +74,7 @@ my $run_env = Presentation::Builder::RunEnv->new(
 =cut
 
 $sc->add_slide(
-	'TOC',
+	'Table of Contents',
 	markdown => <<'MD_END',
 
  * PSGI, Plack intro
@@ -88,6 +88,7 @@ MD_END
 MD_NOTES
 );
 
+=old
 $sc->add_slide(
 	'History',
 	markdown => <<'MD_END',
@@ -95,7 +96,7 @@ $sc->add_slide(
  * InsightStrategy - Apache (CGI.pm) - 2003
 * REST API
  * GoodData - Apache (CGI.pm, mod_perl) - 2006
- * BHI - <span style="color:red">Starman, ZeroGW, Twiggy (PSGI)</span> - 2011
+ * BHI - <span style="color:red">Starman, ZeroGW-PSGI, Twiggy (PSGI)</span> - 2011
 MD_END
 
 	notes => <<'MD_NOTES',
@@ -104,17 +105,122 @@ MD_END
 * PSGI - Miyagawa
 MD_NOTES
 );
+=cut
 
 $sc->add_slide(
-	'Overview?',
+	'Overview',
+	sub {
+		ar img 'overview.png', '850px';
+	}
+);
+
+$sc->add_slide(
+	'PSGI, Plack',
+	sub {
+		ar img 'psgi.png', '850px';
+	}
+);
+
+$sc->add_slide(
+	'PSGI',
 	markdown => <<'MD_END',
 
-	obr: server, handler, psgi + middleware, server code
+Interface
 
- * 
+Author: Tatsuhiko Miyagawa
+
+Inspired by: Python's WSGI and Ruby's Rack.
+
+[http://plackperl.org/](http://plackperl.org/)
 
 MD_END
 	notes => <<'MD_NOTES',
+ * 
+MD_NOTES
+);
+
+$sc->add_slide(
+	'Hello World',
+	markdown => <<'MD_END',
+
+<pre><code data-trim>
+ my $app = sub { 
+ 	my $env = shift;
+
+	return [ 
+		200, # Status
+		['Content-Type', 'text/plain'], # Header
+		['Hello World'] # Body
+	]
+ }
+ </code></pre>
+
+MD_END
+	notes => <<'MD_NOTES',
+
+* Example1
+* Example1_env
+
+use Data::Dumper;
+print STDERR "ENV: ".Dumper($env);
+
+MD_NOTES
+);
+
+$sc->add_slide(
+	'Plack',
+	markdown => <<'MD_END',
+
+Tools
+
+* Middleware - Plack::Middleware::*
+* Application - Plack::App::* (::File, ::Proxy, ::URLMap ...)
+* Handler - Plack::Handler::* (::Apache, ::CGI, ::FCGI ...)
+
+MD_END
+	notes => <<'MD_NOTES',
+
+ * Application, one showed before. First example.
+
+MD_NOTES
+);
+
+$sc->add_slide(
+	'Middleware',
+	sub {
+		ar img 'middleware.png', '850px';
+	}	
+);
+
+$sc->add_slide(
+	'Hello World Middleware',
+	markdown => <<'MD_END',
+
+<pre><code data-trim>
+
+  my $mw = sub {
+      my $env = shift;
+
+      ### Pre App
+
+      ### App
+      my $res = $app->($env);
+
+      ### Post App
+      return $res;
+  };
+
+ }
+ </code></pre>
+
+MD_END
+	notes => <<'MD_NOTES',
+
+* Example2
+
+use Data::Dumper;
+print STDERR "ENV: ".Dumper($env);
+
 MD_NOTES
 );
 
@@ -130,10 +236,50 @@ $sc->add_slide(
  * Twiggy (PreFork) - 14k req/s
  * Starman - 10k req/s
  * NodeJS - 5k req/s
- * Apache - 1k req/s
 
 MD_END
 	notes => <<'MD_NOTES',
+MD_NOTES
+);
+
+$sc->add_slide(
+	'Rest API middlewares',
+	markdown => <<'MD_END',
+
+* Developer friendly
+* User friendly
+* Self documented
+
+MD_END
+	notes => <<'MD_NOTES',
+* 
+MD_NOTES
+);
+
+=old
+$sc->add_slide(
+	'Gray Pages',
+	sub {
+		'GrayPages'."\n".(
+		ar img 'graypages.png', '850px');
+	}	
+);
+=cut
+
+$sc->add_slide(
+	'Libraries',
+	sub {
+		ar img 'restapi.png', '600px';
+	}	
+);
+
+$sc->add_slide(
+	'Demo',
+	markdown => <<'MD_END',
+
+MD_END
+	notes => <<'MD_NOTES',
+* 
 MD_NOTES
 );
 
