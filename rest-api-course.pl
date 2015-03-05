@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!env /usr/bin/perl
 
 use strict;
 use warnings;
@@ -22,7 +22,7 @@ my $course_dir = 'prbuilder';
 
 
 my $sc = Presentation::Builder::SlideCollection::Reveal->new(
-	title => 'Rest API in Plack',
+	title => 'Rest API in Plack(PSGI)',
 	subtitle => '',
 	author => 'Václav Dovrtěl',
 #	author_url => '',
@@ -74,6 +74,21 @@ my $run_env = Presentation::Builder::RunEnv->new(
 =cut
 
 $sc->add_slide(
+	'TOC',
+	markdown => <<'MD_END',
+
+ * PSGI, Plack intro
+ * Rest API middlewares
+ * Example
+
+MD_END
+
+	notes => <<'MD_NOTES',
+* Who know it?
+MD_NOTES
+);
+
+$sc->add_slide(
 	'History',
 	markdown => <<'MD_END',
 * SOAP
@@ -85,25 +100,40 @@ MD_END
 
 	notes => <<'MD_NOTES',
 * implementace serveru pro BI
-* 
+* PSGI hlavne rychlost jak vyvoje, tak vlastniho serveru diky placku
+* PSGI - Miyagawa
 MD_NOTES
 );
 
 $sc->add_slide(
-	'Web applications?',
+	'Overview?',
 	markdown => <<'MD_END',
 
+	obr: server, handler, psgi + middleware, server code
 
+ * 
 
 MD_END
 	notes => <<'MD_NOTES',
-* Linus Torvals - absolutely zero interest in creating a traditional SCM system
-* non-linear development
-* VCS - managment of changes
- * who+when - blame, legal issues, backdors
- * code review, issues tracking, continuous integrations
- * compare, restore, merge
- * versioning - stable, testing, devel
+MD_NOTES
+);
+
+$sc->add_slide(
+	'Performance',
+	markdown => <<'MD_END',
+
+4core i5, 8GB RAM
+
+"Hello World" test:
+
+ * Monoceros - 19k req/s
+ * Twiggy (PreFork) - 14k req/s
+ * Starman - 10k req/s
+ * NodeJS - 5k req/s
+ * Apache - 1k req/s
+
+MD_END
+	notes => <<'MD_NOTES',
 MD_NOTES
 );
 
