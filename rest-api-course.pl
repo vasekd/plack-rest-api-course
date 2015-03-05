@@ -79,7 +79,7 @@ $sc->add_slide(
 
  * PSGI, Plack intro
  * Rest API middlewares
- * Example
+ * Demo
 
 MD_END
 
