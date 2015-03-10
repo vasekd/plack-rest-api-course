@@ -53,14 +53,14 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
      inkscape:cx="187.70799"
-     inkscape:cy="596.0084"
+     inkscape:cy="685.86017"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="1063"
+     inkscape:window-width="1366"
+     inkscape:window-height="735"
      inkscape:window-x="0"
-     inkscape:window-y="17"
+     inkscape:window-y="1113"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata7">
@@ -305,37 +305,37 @@
          y="212.53964"
          style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#f2f2f2;font-family:Sans;-inkscape-font-specification:Sans">Response</tspan></text>
     <rect
-       ry="20"
+       ry="15.939917"
        rx="20"
        y="259.02185"
        x="384.52792"
-       height="71.720833"
+       height="159.9393"
        width="319.20819"
        id="rect4687"
-       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:7.4666357;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        inkscape:export-filename="/opt/git_home/rest-api-course/img/overview.png"
        inkscape:export-xdpi="120.26958"
        inkscape:export-ydpi="120.26958" />
     <text
        sodipodi:linespacing="125%"
        id="text4689"
-       y="289.61578"
-       x="476.03052"
+       y="334.0625"
+       x="483.10159"
        style="font-size:12px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        xml:space="preserve"
        inkscape:export-filename="/opt/git_home/rest-api-course/img/overview.png"
        inkscape:export-xdpi="120.26958"
        inkscape:export-ydpi="120.26958"><tspan
          style="font-size:22px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#333333;font-family:Sans;-inkscape-font-specification:Sans"
-         y="289.61578"
-         x="476.03052"
+         y="334.0625"
+         x="483.10159"
          id="tspan4691"
          sodipodi:role="line">PSGI Server</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       x="438.65485"
-       y="313.85944"
+       x="445.72592"
+       y="358.30615"
        id="text4693"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/opt/git_home/rest-api-course/img/overview.png"
@@ -343,8 +343,8 @@
        inkscape:export-ydpi="120.26958"><tspan
          sodipodi:role="line"
          id="tspan4695"
-         x="438.65485"
-         y="313.85944"
+         x="445.72592"
+         y="358.30615"
          style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#333333;font-family:Sans;-inkscape-font-specification:Sans">Twiggy, Starman, Monoceros ...</tspan></text>
     <rect
        inkscape:export-ydpi="120.26958"

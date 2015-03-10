@@ -66,13 +66,6 @@ my $run_env = Presentation::Builder::RunEnv->new(
 	},
 );
 
-=overview
-- overview
-- psgi
-- plack tools
-- utilites
-=cut
-
 $sc->add_slide(
 	'Table of Contents',
 	markdown => <<'MD_END',
@@ -82,30 +75,7 @@ $sc->add_slide(
  * Demo
 
 MD_END
-
-	notes => <<'MD_NOTES',
-* Who know it?
-MD_NOTES
 );
-
-=old
-$sc->add_slide(
-	'History',
-	markdown => <<'MD_END',
-* SOAP
- * InsightStrategy - Apache (CGI.pm) - 2003
-* REST API
- * GoodData - Apache (CGI.pm, mod_perl) - 2006
- * BHI - <span style="color:red">Starman, ZeroGW-PSGI, Twiggy (PSGI)</span> - 2011
-MD_END
-
-	notes => <<'MD_NOTES',
-* implementace serveru pro BI
-* PSGI hlavne rychlost jak vyvoje, tak vlastniho serveru diky placku
-* PSGI - Miyagawa
-MD_NOTES
-);
-=cut
 
 $sc->add_slide(
 	'Overview',
@@ -134,9 +104,6 @@ Inspired by: Python's WSGI and Ruby's Rack.
 [http://plackperl.org/](http://plackperl.org/)
 
 MD_END
-	notes => <<'MD_NOTES',
- * 
-MD_NOTES
 );
 
 $sc->add_slide(
@@ -156,15 +123,15 @@ $sc->add_slide(
  </code></pre>
 
 MD_END
-	notes => <<'MD_NOTES',
+);
 
-* Example1
-* Example1_env
+$sc->add_slide(
+	'Example 1',
+	markdown => <<'MD_END',
 
-use Data::Dumper;
-print STDERR "ENV: ".Dumper($env);
+	[Hello World example](https://github.com/vasekd/plack-rest-api-course)
 
-MD_NOTES
+MD_END
 );
 
 $sc->add_slide(
@@ -174,15 +141,10 @@ $sc->add_slide(
 Tools
 
 * Middleware - Plack::Middleware::*
-* Application - Plack::App::* (::File, ::Proxy, ::URLMap ...)
-* Handler - Plack::Handler::* (::Apache, ::CGI, ::FCGI ...)
+* Application - Plack::App::* (::File, ::Proxy, ...)
+* Handler - Plack::Handler::* (::CGI, ::FCGI ...)
 
 MD_END
-	notes => <<'MD_NOTES',
-
- * Application, one showed before. First example.
-
-MD_NOTES
 );
 
 $sc->add_slide(
@@ -214,14 +176,47 @@ $sc->add_slide(
  </code></pre>
 
 MD_END
-	notes => <<'MD_NOTES',
+);
 
-* Example2
+$sc->add_slide(
+	'Example 2',
+	markdown => <<'MD_END',
 
-use Data::Dumper;
-print STDERR "ENV: ".Dumper($env);
+	[Hello World Middleware example](https://github.com/vasekd/plack-rest-api-course)
 
-MD_NOTES
+MD_END
+);
+
+$sc->add_slide(
+	'Plack::Builder',
+	markdown => <<'MD_END',
+
+<pre><code data-trim>
+
+  use Plack::Builder;
+
+  my $app = sub { ... };
+
+  builder {
+      enable "Deflater";
+      enable "Session", store => "File";
+      enable "Debug", panels => [ qw(DBITrace Memory Timer) ];
+      enable "+My::Plack::Middleware";
+      $app;
+  };
+
+ </code></pre>
+
+MD_END
+);
+
+$sc->add_slide(
+	'Example 3',
+	markdown => <<'MD_END',
+
+	[Plack::Builder example](https://github.com/vasekd/plack-rest-api-course)
+
+MD_END
 );
 
 $sc->add_slide(
@@ -238,33 +233,14 @@ $sc->add_slide(
  * NodeJS - 5k req/s
 
 MD_END
-	notes => <<'MD_NOTES',
-MD_NOTES
 );
 
 $sc->add_slide(
 	'Rest API middlewares',
 	markdown => <<'MD_END',
 
-* Developer friendly
-* User friendly
-* Self documented
-
 MD_END
-	notes => <<'MD_NOTES',
-* 
-MD_NOTES
 );
-
-=old
-$sc->add_slide(
-	'Gray Pages',
-	sub {
-		'GrayPages'."\n".(
-		ar img 'graypages.png', '850px');
-	}	
-);
-=cut
 
 $sc->add_slide(
 	'Libraries',
@@ -277,10 +253,9 @@ $sc->add_slide(
 	'Demo',
 	markdown => <<'MD_END',
 
+[github.com/vasekd/plack-rest-api-example](https://github.com/vasekd/plack-rest-api-example)
+
 MD_END
-	notes => <<'MD_NOTES',
-* 
-MD_NOTES
 );
 
 $sc->add_slide(
