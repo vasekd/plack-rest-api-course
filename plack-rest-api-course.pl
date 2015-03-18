@@ -129,7 +129,7 @@ $sc->add_slide(
 	'Example 1',
 	markdown => <<'MD_END',
 
-	[Hello World example](https://github.com/vasekd/plack-rest-api-course)
+	[Hello World example](https://github.com/vasekd/plack-rest-api-course/tree/master/example1)
 
 MD_END
 );
@@ -182,7 +182,7 @@ $sc->add_slide(
 	'Example 2',
 	markdown => <<'MD_END',
 
-	[Hello World Middleware example](https://github.com/vasekd/plack-rest-api-course)
+	[Hello World Middleware example](https://github.com/vasekd/plack-rest-api-course/tree/master/example2)
 
 MD_END
 );
@@ -214,7 +214,7 @@ $sc->add_slide(
 	'Example 3',
 	markdown => <<'MD_END',
 
-	[Plack::Builder example](https://github.com/vasekd/plack-rest-api-course)
+	[Plack::Builder example](https://github.com/vasekd/plack-rest-api-course/tree/master/example3)
 
 MD_END
 );
